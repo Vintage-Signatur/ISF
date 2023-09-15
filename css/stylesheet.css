@@ -1,6 +1,5 @@
 :root {
     --panels: transparent;
-    /* --active: #759eb3; */
     --primary: #587786;
     --primary: ;
     --font: 'Raleway', sans-serif;
@@ -85,24 +84,19 @@ p{
 }
 
 .right-panel .fa-facebook {
-    /* color: #3B5998; */
     color: white;
 }
 
 .right-panel .fa-twitter {
-    /* color: #00ACED; */
     color: white;
 }
 
 .right-panel .fa-youtube {
-    /* color: #BB0000; */
     color: white;
 }
 
 .container {
-    /* overflow: hidden; */
     width: 100%;
-    /* display: none; */
 }
 
 .container img {
@@ -111,7 +105,6 @@ p{
 }
 
 .intro {
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,10 +119,6 @@ p{
     line-height: 80px;
     text-align: center;
     color: white;
-
-    /* background: -webkit-linear-gradient(right, #759EB3, #587786); */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
 }
 
 .intro a{
@@ -145,7 +134,6 @@ p{
     background-color: rgb(34, 34, 34);
     position: absolute;
     border-radius: 1000px;
-    /* top: 200px; */
     opacity: 0.8;
     animation-name: blinking;
     animation-duration: 5s;
@@ -211,13 +199,10 @@ p{
     color: white;
     text-decoration: none;
     padding: 3px 0px;
-    /* transition: all 20s; */
 }
 
 .navigation ul li a:hover {
-    /* color: var(--active); */
     border-bottom: 1px solid white;
-    /* transition: all 0.3s ease-in; */
 }
 
 .navigation ul li .active{
@@ -277,24 +262,18 @@ p{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* height: 600px; */
     flex-direction: column;
     margin-top: 120px;
 }
 
 .showcase .projects {
-    /* outline: var(--outline); */
-    /* width: 700px;
-    height: auto; */
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
 .showcase .projects img {
     width: 800px;
     height: auto;
-    /* box-shadow: 5px 5px 5px panels; */
 }
 
 .showcase .projects p {
@@ -329,7 +308,6 @@ p{
     margin-top: 60px;
     margin-bottom: 0px;
     text-align: center;
-    /* color: #587786; */
 }
 
 .about-me .title .subset {
@@ -355,7 +333,6 @@ p{
     margin: 5px 0px;
     color: white;
     font-family: var(--font);
-    /* font-weight: 600; */
 }
 
 .about-me .description .paragraph span>.title{
@@ -401,7 +378,6 @@ p{
     flex-direction: column;
     justify-content: space-evenly;
     height: 70vh;
-    /* outline: var(--outline); */
 }
 
 .testimonials-section .testimonials{
@@ -479,7 +455,6 @@ p{
 }
 
 .contact-page{
-    /* outline: var(--outline); */
     height: 80vh;
     background-color: #222222;
 }
@@ -489,18 +464,14 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    /* outline: var(--outline); */
     height: 80vh;
 }
 
 .contact-page .contents .form{
-    /* height: 0vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* margin-top: 50px; */
-    /* outline: var(--outline); */
 }
 
 .contact-page .contents .form .title p{
@@ -522,7 +493,6 @@ p{
     padding: 5px 10px;
     margin-top: 20px;
     border: none;
-    /* color: rgb(221, 221, 221); */
 }
 
 .contact-page .contents .form .form-contents #message{
@@ -568,12 +538,10 @@ p{
 }
 
 .footer{
-    /* padding-top: 15px; */
     background-color: #2d2d2d;
     color: white;
     display: flex;
     justify-content: space-between;
-    /* padding-inline: 50px; */
     padding: 60px 80px;
 }
 
@@ -582,7 +550,6 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* outline: var(--outline); */
 }
 
 .footer .left ul{
@@ -592,7 +559,6 @@ p{
     justify-content: center;
     margin: 0px;
     padding: 0px;
-    /* align-items: center; */
 }
 
 .footer .left ul li{
@@ -601,7 +567,6 @@ p{
     color: white;
     cursor: pointer;
     margin-top: 5px;
-    /* text-align: center; */
 }
 
 .footer .left .join{
@@ -628,7 +593,6 @@ p{
 }
 
 .footer .center{
-    /* outline: var(--outline); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -960,16 +924,4 @@ p{
     .bars{
         display: block;
     }
-}
-
-#redirect{
-    position: absolute;
-    top: 100vh;
-    margin-top: 10vh;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    z-index: 2;
-    transition: all 0.6s;
 }
