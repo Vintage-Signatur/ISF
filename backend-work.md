@@ -1,7 +1,6 @@
 # Todos
 1) Make the following buttons functional -
-    Hire Us
-    Join Our Team
+    Hire Us and Join Our Team
 
 2) Redirect to the respective social media accounts on pressing the social media icons
 
